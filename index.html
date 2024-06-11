@@ -1,11 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+<html data-theme="light"></html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>GreenGauge</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.2/dist/full.min.css" rel="stylesheet" type="text/css" />  
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    
+    <div class="navbar bg-base-100">
+        <div class="flex-1">  
+          <a class="btn btn-ghost text-xl"><img src="logo.webp" width="55px" height="55px"></a>
+        </div>
+        <div class="flex-none">
+          <ul class="menu menu-horizontal px-1">
+            <li><a>Home</a></li>
+            <li><a>About</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="hero min-h-screen bg-base-200">
+        <div class="hero-content text-center">
+          <div class="max-w-md">
+            <h1 class="text-5xl font-bold">GreenGauge</h1>
+            <p class="py-6">A revolutionary energy monitor that's easy to setup and provides everyone with their carbon dioxide output</p>
+            <button class="btn btn-success">Learn More</button>
+          </div>
+        </div>
+      </div>
 </body>
 </html>
